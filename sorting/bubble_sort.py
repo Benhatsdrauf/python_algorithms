@@ -1,3 +1,7 @@
+import numpy as np
+
+x = np.random.randint(1000000, size=1000)
+
 
 def bubble_sort(list_a):
     indexing_lenght = len(list_a) - 1
@@ -13,5 +17,4 @@ def bubble_sort(list_a):
     return list_a
 
 
-print(bubble_sort([2, 5, 3246, 4, 3, 4, 6, 7, 8, 8,
-                   5, 346, 56, 865, 58, 2345, 435, 7, 65, 84]))
+print(bubble_sort(x))

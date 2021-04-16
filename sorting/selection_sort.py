@@ -1,3 +1,7 @@
+import numpy as np
+
+x = np.random.randint(1000000, size=1000)
+
 
 def selection_sort(list_a):
     indexing_length = range(0, len(list_a)-1)
@@ -14,4 +18,4 @@ def selection_sort(list_a):
     return list_a
 
 
-print(selection_sort([34, 5, 34, 5, 6, 765, 23, 1, 34, 5, 576, 6, 4, 34, 2]))
+print(selection_sort(x))

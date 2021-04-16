@@ -1,3 +1,6 @@
+import numpy as np
+
+x = np.random.randint(1000000, size=1000)
 
 
 def insertion_sort(list_a):
@@ -12,5 +15,4 @@ def insertion_sort(list_a):
     return list_a
 
 
-print(insertion_sort([12, 5, 2, 78, 5, 345, 2, 5, 8, 79,
-                      9, 78, 53, 4, 231, 54, 2, 45, 46, 3, 23, 6, 5]))
+print(insertion_sort(x))
